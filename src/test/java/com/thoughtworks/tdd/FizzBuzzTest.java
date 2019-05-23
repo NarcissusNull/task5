@@ -62,4 +62,12 @@ public class FizzBuzzTest {
 
         assertEquals("BuzzWhizz", result);
     }
+
+    @Test
+    void should_print_FizzBuzzWhizz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.fizzBuzz(105);
+
+        assertEquals("FizzBuzzWhizz", result);
+    }
 }
